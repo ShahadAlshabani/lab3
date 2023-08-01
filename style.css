@@ -1,0 +1,250 @@
+/* Global */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica;
+}
+body {
+    background-color: #010101;
+    color:#ffffff;
+    font-weight: lighter;
+    text-align: center;
+
+}
+/* Header */
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 50px;
+    background-color: #010101;
+}
+
+.content{
+    max-width: 500px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 36px;
+    font-weight: lighter;
+    font-size: 6em;
+}
+
+#nav-title {
+    margin-right: auto;
+    font-size: 1.5em;
+    color: #ffffff;
+}
+
+header li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: all 0.3s ease 0s;
+}
+
+header a:hover {
+    color: #5a5a5a;
+}
+.Purchase{
+    color: #000000;
+    border: #ffffff solid 8px;
+    background-color: #ffffff;
+   
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+  }
+  
+ 
+  /* Add some padding inside the card container */
+  .container {
+    width: 100%;
+    display: flex;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .card {
+    background-color: #111111;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .card h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .card a {
+    display: inline-block;
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+
+.section {
+    background-color: #fff;
+    display: flexbox;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+.section h2 {
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+
+  }
+  .image1 {
+    position: sticky;
+    margin-top: 100px;
+
+    border: 1px solid #000000;
+    z-index: 1;
+    width: 40%;
+    box-shadow: 10px 10px 8px #888888;
+
+  }
+  .image2 {
+    position: static;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border: 1px solid #000000;
+    z-index: 2;
+    width: 30%;
+    box-shadow: 10px 10px 8px #888888;
+  }
+  
+  .sticky-container {
+    background-color: #ffffff;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+
+  }
+  
+  .sticky-container img {
+    width: 50%;
+    height: 50%;
+    margin-left: 36px;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .sticky-container img:first-child {
+    margin-top: 100px;
+    border: 1px solid #000000;
+    z-index: 1;
+    width: 30%;
+    box-shadow: 10px 10px 8px #888888;
+  }
+  .sticky-container img:nth-child(2) {
+    margin-top: 260px;
+    margin-left: -100px;
+    border: 1px solid #000000;
+    z-index: 2;
+    width: 20%;
+    box-shadow: 10px 10px 8px #888888;
+  }
+  
+  .sticky-container h1 {
+    margin-top: 100px;
+    text-align: justify;
+    color: #000000;
+    font-size: 2em;
+  }
+
+  .sticky-container h2{
+    margin-top: 260px;
+    margin-left: -250px;
+    text-align: left;
+    color: #000000;
+    font-size: 16px;
+    width: 20%;
+    font-weight: lighter;
+  }
+  .sticky-container p {
+    margin: 0px;
+    color: #000000;
+    font-size: 16px;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  }
+  .Squares{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0px;
+
+}
+.Squares .Square{
+    background-color: #e2e2e2;
+    height: 20vh;
+    width: 20vh;
+    margin-top: 60px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 50px;
+}
+
+
+  
+ 
+ 
+  
+ 
+
+
